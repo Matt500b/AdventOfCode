@@ -14,8 +14,8 @@
 		public static void Main(string[] args)
 		{
             ScriptSettings settings = null;
-            bool scriptSuccess = true;
-            Stopwatch stopWatch = new Stopwatch();
+            bool scriptSuccess      = true;
+            Stopwatch stopWatch     = new Stopwatch();
             string scriptFolderName = ConfigurationManager.AppSettings["ScriptStartupFolder"];
             string settingsPath     = Path.Combine(scriptFolderName, "ScriptSettings.xml");
 
@@ -32,7 +32,7 @@
                 Exit();
             }
 
-            string startupClass = $"AdventOfCode.AoC{scriptFolderName}.Day{settings.Day}";
+            string startupClass     = $"AdventOfCode.AoC{scriptFolderName}.Day{settings.Day}";
             AdventOfCodeBase script = null;
 
             try
