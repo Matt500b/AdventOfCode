@@ -1,11 +1,10 @@
-﻿namespace AoC2017
+﻿namespace AdventOfCode.AoC2017
 {
-	using System.Collections.Generic;
-	using System.IO;
-	using System.Linq;
-	using Helpers;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
 
-	public class Day2
+    public class Day2
 		: AdventOfCodeBase
 	{
 		public override void Main()

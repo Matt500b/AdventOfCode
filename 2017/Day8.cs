@@ -1,12 +1,11 @@
-﻿namespace AoC2017
+﻿namespace AdventOfCode.AoC2017
 {
-	using System;
-	using System.Collections.Generic;
-	using System.IO;
-	using System.Linq;
-	using Helpers;
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
 
-	public class Day8
+    public class Day8
 		: AdventOfCodeBase
 	{
 		private int _maxValueFound;
