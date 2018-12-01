@@ -10,14 +10,14 @@
 		public override void Main()
 		{
 			/* Part 1 */
-			UnitTest<string>(SolvePart1<string>("Files/AoC2017_Day7_P1_UT1.csv"), "tknk");
+			UnitTest<string>(SolvePart1<string>("Files/2017/Day7/UT1.csv"), "tknk");
 
-			SolveProblem<string>(SolvePart1<string>("Files/AoC2017_Day7_P1.csv"));
+			SolveProblem<string>(SolvePart1<string>("Files/2017/Day7/Input.csv"));
 
 			/* Part 2 */
-			UnitTest<int>(SolvePart2<int>("Files/AoC2017_Day7_P1_UT1.csv"), 60);
+			UnitTest<int>(SolvePart2<int>("Files/2017/Day7/UT1.csv"), 60);
 
-			SolveProblem<int>(SolvePart2<int>("Files/AoC2017_Day7_P1.csv"));
+			SolveProblem<int>(SolvePart2<int>("Files/2017/Day7/Input.csv"));
 		}
 
 		/// <summary>

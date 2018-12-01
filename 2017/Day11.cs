@@ -11,15 +11,15 @@
 		public override void Main()
 		{
 			/* Part 1 */
-			UnitTest<int>(SolvePart1<int>("Files/AoC2017_Day11_P1_UT1.csv"), 3);
-			UnitTest<int>(SolvePart1<int>("Files/AoC2017_Day11_P1_UT2.csv"), 0);
-			UnitTest<int>(SolvePart1<int>("Files/AoC2017_Day11_P1_UT3.csv"), 2);
-			UnitTest<int>(SolvePart1<int>("Files/AoC2017_Day11_P1_UT4.csv"), 3);
+			UnitTest<int>(SolvePart1<int>("Files/2017/Day11/P1_UT1.csv"), 3);
+			UnitTest<int>(SolvePart1<int>("Files/2017/Day11/P1_UT2.csv"), 0);
+			UnitTest<int>(SolvePart1<int>("Files/2017/Day11/P1_UT3.csv"), 2);
+			UnitTest<int>(SolvePart1<int>("Files/2017/Day11/P1_UT4.csv"), 3);
 
-			SolveProblem<int>(SolvePart1<int>("Files/AoC2017_Day11_P1.csv"));
+			SolveProblem<int>(SolvePart1<int>("Files/2017/Day11/Input.csv"));
 
 			/* Part 2 */
-			SolveProblem<int>(SolvePart2<int>("Files/AoC2017_Day11_P1.csv"));
+			SolveProblem<int>(SolvePart2<int>("Files/2017/Day11/Input.csv"));
 		}
 
 		/// <summary>
