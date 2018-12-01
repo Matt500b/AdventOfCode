@@ -25,12 +25,12 @@
         /// <summary>Units the test.</summary>
         /// <typeparam name="T">The type of answer to compare</typeparam>
         /// <param name="input">The input.</param>
-        /// <param name="result">The result.</param>
-        public void UnitTest<T>(T input, T result)
+        /// <param name="expectedResult">The expected result.</param>
+        public void UnitTest<T>(T input, T expectedResult)
 		{
-			bool isMatch = EqualityComparer<T>.Default.Equals(input, result);
+			bool isMatch = EqualityComparer<T>.Default.Equals(input, expectedResult);
 
-			Console.Write($"Performing Unit Test...\t\t");
+			Console.Write($"Performing Unit Test...\t Expecting: {expectedResult.ToString()}\t Found: {input.ToString()}\t");
 
 			if (isMatch)
 			{
@@ -43,7 +43,7 @@
 				Console.Write("FAILED");
 			}
 
-			Console.WriteLine();
+            Console.WriteLine();
 			Console.ResetColor();
 		}
 

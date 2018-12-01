@@ -73,58 +73,49 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Files\AoC2017_Day11_P1.csv">
+    <None Include="Files\2017\Day11\Input.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\AoC2017_Day11_P1_UT1.csv">
+    <None Include="Files\2017\Day11\P1_UT1.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\AoC2017_Day11_P1_UT2.csv">
+    <None Include="Files\2017\Day11\P1_UT2.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\AoC2017_Day11_P1_UT3.csv">
+    <None Include="Files\2017\Day11\P1_UT3.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\AoC2017_Day11_P1_UT4.csv">
+    <None Include="Files\2017\Day11\P1_UT4.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\AoC2017_Day12_P1_UT1.csv">
+    <None Include="Files\2017\Day2\Input.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\AoC2017_Day2_P1.csv">
+    <None Include="Files\2017\Day2\P1_UT1.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\AoC2017_Day2_P1_UT1.csv">
+    <None Include="Files\2017\Day2\P2_UT1.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\AoC2017_Day2_P1_UT2.csv">
+    <None Include="Files\2017\Day4\Input.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\AoC2017_Day4_P1.csv">
+    <None Include="Files\2017\Day4\P1_UT1.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\AoC2017_Day4_P1_UT1.csv">
+    <None Include="Files\2017\Day4\P2_UT1.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\AoC2017_Day4_P1_UT2.csv">
+    <None Include="Files\2017\Day7\Input.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\AoC2017_Day5_P1.csv">
+    <None Include="Files\2017\Day7\UT1.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\AoC2017_Day5_P1_UT1.csv">
+    <None Include="Files\2017\Day8\Input.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\AoC2017_Day7_P1.csv">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Files\AoC2017_Day7_P1_UT1.csv">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Files\AoC2017_Day8_P1.csv">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Files\AoC2017_Day8_P1_UT1.csv">
+    <None Include="Files\2017\Day8\UT1.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
@@ -147,6 +138,31 @@
     <Content Include="2018\ScriptSettings.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Files\2018\Day1\Input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\2018\Day1\P1_UT1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\2018\Day1\P1_UT2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\2018\Day1\P1_UT3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\2018\Day1\P2_UT1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\2018\Day1\P2_UT2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\2018\Day1\P2_UT3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\2018\Day1\P2_UT4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
